@@ -1,0 +1,1346 @@
+local ExtraGraphics = Instance.new("ScreenGui")
+local TopFrame = Instance.new("ImageButton")
+local UICorner = Instance.new("UICorner")
+local Name = Instance.new("TextLabel")
+local TextLabel = Instance.new("TextLabel")
+local MainFrame = Instance.new("ImageButton")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UIListLayout2 = Instance.new("UIListLayout")
+local LocalFrame = Instance.new("Frame")
+local UIListLayout2_2 = Instance.new("UIListLayout")
+local _5 = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local Content = Instance.new("Frame")
+local Holder = Instance.new("Frame")
+local Circle = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
+local Button = Instance.new("TextButton")
+local _2 = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local Fill = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local _1 = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local Fill_2 = Instance.new("Frame")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local _3 = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local Content_2 = Instance.new("Frame")
+local Holder_2 = Instance.new("Frame")
+local Circle_2 = Instance.new("Frame")
+local UICorner_11 = Instance.new("UICorner")
+local UICorner_12 = Instance.new("UICorner")
+local Button_2 = Instance.new("TextButton")
+local _4 = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local TextLabel_7 = Instance.new("TextLabel")
+local Content_3 = Instance.new("Frame")
+local Holder_3 = Instance.new("Frame")
+local Circle_3 = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local UICorner_15 = Instance.new("UICorner")
+local Button_3 = Instance.new("TextButton")
+local PlayersFrame = Instance.new("Frame")
+local _1_2 = Instance.new("Frame")
+local UICorner_16 = Instance.new("UICorner")
+local List = Instance.new("ScrollingFrame")
+local UI = Instance.new("UIListLayout")
+local Frame = Instance.new("Frame")
+local Sample = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local Name_2 = Instance.new("TextLabel")
+local UICorner_18 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local SettingsFrame = Instance.new("Frame")
+local UIListLayout = Instance.new("UIListLayout")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local openclose = Instance.new("ImageButton")
+local UICorner_22 = Instance.new("UICorner")
+local LabelHolder = Instance.new("Frame")
+local Local = Instance.new("TextButton")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local Pla = Instance.new("TextButton")
+local Sett = Instance.new("TextButton")
+
+--Properties:
+
+ExtraGraphics.Name = "ExtraGraphics"
+ExtraGraphics.Parent = game.CoreGui
+
+TopFrame.Name = "TopFrame"
+TopFrame.Parent = ExtraGraphics
+TopFrame.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+TopFrame.Position = UDim2.new(0.369329065, 0, 0.142506137, 0)
+TopFrame.Size = UDim2.new(0, 408, 0, 28)
+TopFrame.ZIndex = 3
+TopFrame.AutoButtonColor = false
+
+UICorner.CornerRadius = UDim.new(0, 5)
+UICorner.Parent = TopFrame
+
+Name.Name = "Name"
+Name.Parent = TopFrame
+Name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Name.BackgroundTransparency = 1.000
+Name.Position = UDim2.new(0.0210666955, 0, 0, 0)
+Name.Size = UDim2.new(0, 80, 0, 28)
+Name.ZIndex = 3
+Name.Font = Enum.Font.Gotham
+Name.Text = "Cordtex - "
+Name.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name.TextSize = 16.000
+
+TextLabel.Parent = Name
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.772198498, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 81, 0, 28)
+TextLabel.ZIndex = 3
+TextLabel.Font = Enum.Font.Gotham
+TextLabel.Text = "TTD 3"
+TextLabel.TextColor3 = Color3.fromRGB(0, 255, 0)
+TextLabel.TextSize = 16.000
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = TopFrame
+MainFrame.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
+MainFrame.Position = UDim2.new(0, 0, 0.735781014, 0)
+MainFrame.Size = UDim2.new(0, 408, 0, 241)
+MainFrame.AutoButtonColor = false
+
+UICorner_2.CornerRadius = UDim.new(0, 5)
+UICorner_2.Parent = MainFrame
+
+TextLabel_2.Parent = MainFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.865196049, 0, 0.908713698, 0)
+TextLabel_2.Size = UDim2.new(0, 55, 0, 22)
+TextLabel_2.Font = Enum.Font.Cartoon
+TextLabel_2.Text = "v1.0.0"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+ScrollingFrame.Parent = MainFrame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.Position = UDim2.new(0.0430000015, 0, 0.191, 0)
+ScrollingFrame.Size = UDim2.new(0, 373, 0, 186)
+ScrollingFrame.CanvasSize = UDim2.new(5, 0, 2, 0)
+ScrollingFrame.ScrollBarThickness = 0
+ScrollingFrame.ScrollingEnabled = false
+ScrollingFrame.VerticalScrollBarInset = Enum.ScrollBarInset.ScrollBar
+
+UIListLayout2.Name = "UIListLayout2"
+UIListLayout2.Parent = ScrollingFrame
+UIListLayout2.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout2.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout2.Padding = UDim.new(0, 7)
+
+LocalFrame.Name = "LocalFrame"
+LocalFrame.Parent = ScrollingFrame
+LocalFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LocalFrame.BackgroundTransparency = 1.000
+LocalFrame.Size = UDim2.new(0, 373, 0, 186)
+
+UIListLayout2_2.Name = "UIListLayout2"
+UIListLayout2_2.Parent = LocalFrame
+UIListLayout2_2.Padding = UDim.new(0, 7)
+
+_5.Name = "5"
+_5.Parent = LocalFrame
+_5.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+_5.Position = UDim2.new(0, 0, 0.39784947, 0)
+_5.Size = UDim2.new(0, 230, 0, 30)
+
+UICorner_3.Parent = _5
+
+TextLabel_3.Parent = _5
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Size = UDim2.new(0, 71, 0, 30)
+TextLabel_3.ZIndex = 3
+TextLabel_3.Font = Enum.Font.Cartoon
+TextLabel_3.Text = "Anti-Afk"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 17.000
+
+Content.Name = "Content"
+Content.Parent = _5
+Content.AnchorPoint = Vector2.new(0.5, 0.5)
+Content.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+Content.BackgroundTransparency = 1.000
+Content.BorderSizePixel = 0
+Content.Position = UDim2.new(0.627634585, 0, 1.09162903, 0)
+Content.Size = UDim2.new(0.744730532, 0, 1.67153895, 0)
+
+Holder.Name = "Holder"
+Holder.Parent = Content
+Holder.AnchorPoint = Vector2.new(0.5, 0.5)
+Holder.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Holder.BorderSizePixel = 0
+Holder.Position = UDim2.new(0.671991289, 0, 0.144408703, 0)
+Holder.Size = UDim2.new(0.278787881, 0, 0.360000014, 0)
+
+Circle.Name = "Circle"
+Circle.Parent = Holder
+Circle.AnchorPoint = Vector2.new(0, 0.5)
+Circle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Circle.Position = UDim2.new(0, 0, 0.499999732, 0)
+Circle.Size = UDim2.new(0.5, 0, 0.899999976, 0)
+
+UICorner_4.CornerRadius = UDim.new(0, 5)
+UICorner_4.Parent = Circle
+
+UICorner_5.CornerRadius = UDim.new(0, 5)
+UICorner_5.Parent = Holder
+
+Button.Name = "Button"
+Button.Parent = Holder
+Button.AnchorPoint = Vector2.new(0.5, 0.5)
+Button.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Button.BackgroundTransparency = 1.000
+Button.BorderSizePixel = 0
+Button.Position = UDim2.new(0.5, 0, 0.5, 0)
+Button.Size = UDim2.new(1.10000002, 0, 1.25, 0)
+Button.Font = Enum.Font.SourceSans
+Button.Text = ""
+Button.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button.TextSize = 14.000
+
+_2.Name = "2"
+_2.Parent = LocalFrame
+_2.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+_2.Position = UDim2.new(0.0241286866, 0, 0, 0)
+_2.Size = UDim2.new(0, 309, 0, 30)
+
+UICorner_6.Parent = _2
+
+TextLabel_4.Parent = _2
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Size = UDim2.new(0, 106, 0, 30)
+TextLabel_4.ZIndex = 3
+TextLabel_4.Font = Enum.Font.Cartoon
+TextLabel_4.Text = "Player Jump"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 17.000
+
+Fill.Name = "Fill"
+Fill.Parent = _2
+Fill.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Fill.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fill.BorderSizePixel = 0
+Fill.Position = UDim2.new(0.458024561, 0, 0.359017134, 0)
+Fill.Size = UDim2.new(0, 136, 0, 8)
+
+TextButton.Parent = Fill
+TextButton.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 4
+TextButton.Position = UDim2.new(0, 0, 0.5, 0)
+TextButton.Size = UDim2.new(0, 10, 0, 10)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = ""
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+UICorner_7.CornerRadius = UDim.new(1, 0)
+UICorner_7.Parent = TextButton
+
+_1.Name = "1"
+_1.Parent = LocalFrame
+_1.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+_1.Position = UDim2.new(0.0241286866, 0, 0, 0)
+_1.Size = UDim2.new(0, 309, 0, 30)
+
+UICorner_8.Parent = _1
+
+TextLabel_5.Parent = _1
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Size = UDim2.new(0, 106, 0, 30)
+TextLabel_5.ZIndex = 3
+TextLabel_5.Font = Enum.Font.Cartoon
+TextLabel_5.Text = "Player Speed"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 17.000
+
+Fill_2.Name = "Fill"
+Fill_2.Parent = _1
+Fill_2.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Fill_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fill_2.BorderSizePixel = 0
+Fill_2.Position = UDim2.new(0.458024561, 0, 0.359017134, 0)
+Fill_2.Size = UDim2.new(0, 136, 0, 8)
+
+TextButton_2.Parent = Fill_2
+TextButton_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_2.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 4
+TextButton_2.Position = UDim2.new(0, 0, 0.5, 0)
+TextButton_2.Size = UDim2.new(0, 10, 0, 10)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = ""
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+UICorner_9.CornerRadius = UDim.new(1, 0)
+UICorner_9.Parent = TextButton_2
+
+_3.Name = "3"
+_3.Parent = LocalFrame
+_3.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+_3.Position = UDim2.new(0, 0, 0.39784947, 0)
+_3.Size = UDim2.new(0, 230, 0, 30)
+
+UICorner_10.Parent = _3
+
+TextLabel_6.Parent = _3
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Size = UDim2.new(0, 71, 0, 30)
+TextLabel_6.ZIndex = 3
+TextLabel_6.Font = Enum.Font.Cartoon
+TextLabel_6.Text = "No-Clip"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 17.000
+
+Content_2.Name = "Content"
+Content_2.Parent = _3
+Content_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Content_2.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+Content_2.BackgroundTransparency = 1.000
+Content_2.BorderSizePixel = 0
+Content_2.Position = UDim2.new(0.627634585, 0, 1.09162903, 0)
+Content_2.Size = UDim2.new(0.744730532, 0, 1.67153895, 0)
+
+Holder_2.Name = "Holder"
+Holder_2.Parent = Content_2
+Holder_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Holder_2.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Holder_2.BorderSizePixel = 0
+Holder_2.Position = UDim2.new(0.671991289, 0, 0.144408703, 0)
+Holder_2.Size = UDim2.new(0.278787881, 0, 0.360000014, 0)
+
+Circle_2.Name = "Circle"
+Circle_2.Parent = Holder_2
+Circle_2.AnchorPoint = Vector2.new(0, 0.5)
+Circle_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Circle_2.Position = UDim2.new(0, 0, 0.499999732, 0)
+Circle_2.Size = UDim2.new(0.5, 0, 0.899999976, 0)
+
+UICorner_11.CornerRadius = UDim.new(0, 5)
+UICorner_11.Parent = Circle_2
+
+UICorner_12.CornerRadius = UDim.new(0, 5)
+UICorner_12.Parent = Holder_2
+
+Button_2.Name = "Button"
+Button_2.Parent = Holder_2
+Button_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Button_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Button_2.BackgroundTransparency = 1.000
+Button_2.BorderSizePixel = 0
+Button_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+Button_2.Size = UDim2.new(1.10000002, 0, 1.25, 0)
+Button_2.Font = Enum.Font.SourceSans
+Button_2.Text = ""
+Button_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_2.TextSize = 14.000
+
+_4.Name = "4"
+_4.Parent = LocalFrame
+_4.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+_4.Position = UDim2.new(0, 0, 0.39784947, 0)
+_4.Size = UDim2.new(0, 230, 0, 30)
+
+UICorner_13.Parent = _4
+
+TextLabel_7.Parent = _4
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Size = UDim2.new(0, 106, 0, 30)
+TextLabel_7.ZIndex = 3
+TextLabel_7.Font = Enum.Font.Cartoon
+TextLabel_7.Text = "InfiniteJump"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 17.000
+
+Content_3.Name = "Content"
+Content_3.Parent = _4
+Content_3.AnchorPoint = Vector2.new(0.5, 0.5)
+Content_3.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+Content_3.BackgroundTransparency = 1.000
+Content_3.BorderSizePixel = 0
+Content_3.Position = UDim2.new(0.627634585, 0, 1.09162903, 0)
+Content_3.Size = UDim2.new(0.744730532, 0, 1.67153895, 0)
+
+Holder_3.Name = "Holder"
+Holder_3.Parent = Content_3
+Holder_3.AnchorPoint = Vector2.new(0.5, 0.5)
+Holder_3.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Holder_3.BorderSizePixel = 0
+Holder_3.Position = UDim2.new(0.671991289, 0, 0.144408703, 0)
+Holder_3.Size = UDim2.new(0.278787881, 0, 0.360000014, 0)
+
+Circle_3.Name = "Circle"
+Circle_3.Parent = Holder_3
+Circle_3.AnchorPoint = Vector2.new(0, 0.5)
+Circle_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Circle_3.Position = UDim2.new(0, 0, 0.499999732, 0)
+Circle_3.Size = UDim2.new(0.5, 0, 0.899999976, 0)
+
+UICorner_14.CornerRadius = UDim.new(0, 5)
+UICorner_14.Parent = Circle_3
+
+UICorner_15.CornerRadius = UDim.new(0, 5)
+UICorner_15.Parent = Holder_3
+
+Button_3.Name = "Button"
+Button_3.Parent = Holder_3
+Button_3.AnchorPoint = Vector2.new(0.5, 0.5)
+Button_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Button_3.BackgroundTransparency = 1.000
+Button_3.BorderSizePixel = 0
+Button_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+Button_3.Size = UDim2.new(1.10000002, 0, 1.25, 0)
+Button_3.Font = Enum.Font.SourceSans
+Button_3.Text = ""
+Button_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_3.TextSize = 14.000
+
+PlayersFrame.Name = "PlayersFrame"
+PlayersFrame.Parent = ScrollingFrame
+PlayersFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayersFrame.BackgroundTransparency = 1.000
+PlayersFrame.Position = UDim2.new(0.042892158, 0, 0.190871373, 0)
+PlayersFrame.Size = UDim2.new(0, 373, 0, 186)
+
+_1_2.Name = "1"
+_1_2.Parent = PlayersFrame
+_1_2.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+_1_2.Size = UDim2.new(0, 218, 0, 178)
+
+UICorner_16.Parent = _1_2
+
+List.Name = "List"
+List.Parent = _1_2
+List.Active = true
+List.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+List.BackgroundTransparency = 1.000
+List.BorderSizePixel = 0
+List.Size = UDim2.new(1, 0, 0.99999994, 0)
+List.CanvasPosition = Vector2.new(0, 150)
+List.CanvasSize = UDim2.new(0, 0, 8, 0)
+List.ScrollBarThickness = 0
+
+UI.Name = "UI"
+UI.Parent = List
+UI.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UI.SortOrder = Enum.SortOrder.LayoutOrder
+UI.Padding = UDim.new(0, 7)
+
+Frame.Parent = List
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0.270642191, 0, 0, 0)
+Frame.Size = UDim2.new(0, 100, 0, 0)
+
+Sample.Name = "Sample"
+Sample.Parent = PlayersFrame
+Sample.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Sample.Position = UDim2.new(0.105504587, 0, 0.0393258445, 0)
+Sample.Size = UDim2.new(0, 187, 0, 18)
+Sample.Visible = false
+Sample.Font = Enum.Font.Cartoon
+Sample.TextColor3 = Color3.fromRGB(255, 255, 255)
+Sample.TextSize = 15.000
+
+UICorner_17.CornerRadius = UDim.new(0, 5)
+UICorner_17.Parent = Sample
+
+Name_2.Name = "Name"
+Name_2.Parent = PlayersFrame
+Name_2.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Name_2.Position = UDim2.new(0.613941014, 0, 0.0268817209, 0)
+Name_2.Size = UDim2.new(0, 143, 0, 19)
+Name_2.Font = Enum.Font.Cartoon
+Name_2.Text = "> User Selected <"
+Name_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name_2.TextSize = 14.000
+
+UICorner_18.CornerRadius = UDim.new(0, 5)
+UICorner_18.Parent = Name_2
+
+TextButton_3.Parent = PlayersFrame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+TextButton_3.Position = UDim2.new(0.613941014, 0, 0.227497876, 0)
+TextButton_3.Size = UDim2.new(0, 143, 0, 18)
+TextButton_3.Font = Enum.Font.Cartoon
+TextButton_3.Text = "Teleport to User"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 15.000
+
+UICorner_19.CornerRadius = UDim.new(0, 5)
+UICorner_19.Parent = TextButton_3
+
+TextButton_4.Parent = PlayersFrame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+TextButton_4.Position = UDim2.new(0.613941014, 0, 0.421046257, 0)
+TextButton_4.Size = UDim2.new(0, 143, 0, 18)
+TextButton_4.Font = Enum.Font.Cartoon
+TextButton_4.Text = "ESP"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 15.000
+
+UICorner_20.CornerRadius = UDim.new(0, 5)
+UICorner_20.Parent = TextButton_4
+
+SettingsFrame.Name = "SettingsFrame"
+SettingsFrame.Parent = ScrollingFrame
+SettingsFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SettingsFrame.BackgroundTransparency = 1.000
+SettingsFrame.Position = UDim2.new(0.042892158, 0, 0.190871373, 0)
+SettingsFrame.Size = UDim2.new(0, 373, 0, 186)
+
+UIListLayout.Parent = SettingsFrame
+UIListLayout.Padding = UDim.new(0, 7)
+
+TextButton_5.Parent = SettingsFrame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+TextButton_5.Position = UDim2.new(0.613941014, 0, 0.421046257, 0)
+TextButton_5.Size = UDim2.new(0, 374, 0, 30)
+TextButton_5.Font = Enum.Font.Cartoon
+TextButton_5.Text = "Destroy-Gui"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextSize = 17.000
+
+UICorner_21.CornerRadius = UDim.new(0, 5)
+UICorner_21.Parent = TextButton_5
+
+TextLabel_8.Parent = SettingsFrame
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0, 0, 0.198924735, 0)
+TextLabel_8.Size = UDim2.new(0, 374, 0, 30)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "> Creator Note <"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 14.000
+
+TextLabel_9.Parent = SettingsFrame
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0, 0, 0.198924735, 0)
+TextLabel_9.Size = UDim2.new(0, 374, 0, 30)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "This gui can be Updated at anytime the Creator wishes to Add something. More will most likely come at some point."
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+openclose.Name = "openclose"
+openclose.Parent = TopFrame
+openclose.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+openclose.Position = UDim2.new(0.93840915, 0, 0.196209177, 0)
+openclose.Size = UDim2.new(0, 17, 0, 17)
+openclose.ZIndex = 3
+openclose.AutoButtonColor = false
+
+UICorner_22.CornerRadius = UDim.new(0, 5)
+UICorner_22.Parent = openclose
+
+LabelHolder.Name = "LabelHolder"
+LabelHolder.Parent = TopFrame
+LabelHolder.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+LabelHolder.BorderSizePixel = 0
+LabelHolder.Position = UDim2.new(0, 0, 1, 0)
+LabelHolder.Size = UDim2.new(0, 408, 0, 26)
+
+Local.Name = "Local"
+Local.Parent = LabelHolder
+Local.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Local.BorderSizePixel = 0
+Local.Position = UDim2.new(0.042892158, 0, 0, 0)
+Local.Size = UDim2.new(0, 88, 0, 26)
+Local.AutoButtonColor = false
+Local.Font = Enum.Font.Cartoon
+Local.Text = "Local-Player"
+Local.TextColor3 = Color3.fromRGB(255, 255, 255)
+Local.TextSize = 15.000
+
+UIListLayout_2.Parent = LabelHolder
+UIListLayout_2.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_2.Padding = UDim.new(0, 7)
+
+Pla.Name = "Pla"
+Pla.Parent = LabelHolder
+Pla.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Pla.BorderSizePixel = 0
+Pla.Position = UDim2.new(0.275735289, 0, 0, 0)
+Pla.Size = UDim2.new(0, 88, 0, 26)
+Pla.AutoButtonColor = false
+Pla.Font = Enum.Font.Cartoon
+Pla.Text = "Players"
+Pla.TextColor3 = Color3.fromRGB(255, 255, 255)
+Pla.TextSize = 15.000
+
+Sett.Name = "Sett"
+Sett.Parent = LabelHolder
+Sett.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Sett.BorderSizePixel = 0
+Sett.Position = UDim2.new(0.74142158, 0, 0, 0)
+Sett.Size = UDim2.new(0, 88, 0, 26)
+Sett.AutoButtonColor = false
+Sett.Font = Enum.Font.Cartoon
+Sett.Text = "Settings"
+Sett.TextColor3 = Color3.fromRGB(255, 255, 255)
+Sett.TextSize = 15.000
+
+-- Scripts:
+
+local function MXJDXSD_fake_script() -- Content.Main Handler 
+	local script = Instance.new('LocalScript', Content)
+
+	local TweenService = game:GetService("TweenService")
+	
+	local Holder = script.Parent:WaitForChild("Holder")
+	local Circle = Holder:WaitForChild("Circle")
+	
+	local Button = Holder:WaitForChild("Button")
+	
+	local sound1 = Instance.new("Sound")
+	sound1.Parent = Button
+	sound1.SoundId = ("rbxassetid://4612384434")
+	
+	local sound2 = Instance.new("Sound")
+	sound2.Parent = Button
+	sound2.SoundId = ("rbxassetid://4612384434")
+	
+	local verb = Instance.new("PitchShiftSoundEffect")
+	verb.Parent = sound2
+	verb.Octave = ("0.75")
+	
+	local function setToggle(request)
+		local Duration = 0.25
+		local Style = Enum.EasingStyle.Sine
+		local Direction = Enum.EasingDirection.Out
+		local RepeatCount = 0
+		local Reverse = false
+		local TweenDelay = 0
+		local AnimateInfo = TweenInfo.new(Duration, Style, Direction, RepeatCount, Reverse, TweenDelay)
+		
+		if request == true then
+			local Holder_Open = TweenService:Create(Holder, AnimateInfo, {BackgroundColor3 = Color3.new(0, 0.847059, 0.337255)})
+			local Circle_Open = TweenService:Create(Circle, AnimateInfo, {Position = UDim2.new(1, 0, 0.5, 0), AnchorPoint = Vector2.new(1, 0.5)})
+			
+			Holder_Open:Play()
+			Circle_Open:Play()
+		elseif request == false then
+			local Holder_Close = TweenService:Create(Holder, AnimateInfo, {BackgroundColor3 = Color3.new(0.384314, 0.384314, 0.384314)})
+			local Circle_Close = TweenService:Create(Circle, AnimateInfo, {Position = UDim2.new(0, 0, 0.5, 0), AnchorPoint = Vector2.new(0, 0.5)})
+			
+			Holder_Close:Play()
+			Circle_Close:Play()
+		else
+			warn("Wrong request.")
+		end
+	end
+	
+	
+	local Cooldown = false
+	local isOpen = false
+	Button.MouseButton1Click:Connect(function()
+		if not Cooldown then
+			Cooldown = true
+			
+			if not isOpen then
+				setToggle(true)
+				sound1:Play()
+				local vu = game:GetService("VirtualUser")
+				game:GetService("Players").LocalPlayer.Idled:connect(function()
+					vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+					wait(1)
+					vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+				end)
+				
+				isOpen = true
+			else
+				setToggle(false)
+				sound2:Play()
+				
+				isOpen = false
+			end
+			
+			
+			wait(1) -- Wait n Seconds till the animation will proceed
+			Cooldown = false
+		end
+	end)
+end
+coroutine.wrap(MXJDXSD_fake_script)()
+local function KMJKQPP_fake_script() -- Fill.LocalScript 
+	local script = Instance.new('LocalScript', Fill)
+
+	local UserInputService = game:GetService("UserInputService")
+	local Dragging = false
+	script.Parent.TextButton.MouseButton1Down:Connect(function()
+		Dragging = true
+	end)
+	
+	UserInputService.InputChanged:Connect(function()
+		if Dragging then
+			local MousePos = UserInputService:GetMouseLocation()+Vector2.new(0,36)
+			local RelPos = MousePos-script.Parent.AbsolutePosition
+			local Precent = math.clamp(RelPos.X/script.Parent.AbsoluteSize.X,0,1)
+			script.Parent.TextButton.Position = UDim2.new(Precent,0,0.5,0)
+			game.Players.LocalPlayer.Character.Humanoid.JumpPower = Precent*100
+		end
+	end)
+	
+	UserInputService.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			Dragging = false
+		end
+	end)
+end
+coroutine.wrap(KMJKQPP_fake_script)()
+local function IFZE_fake_script() -- Fill_2.LocalScript 
+	local script = Instance.new('LocalScript', Fill_2)
+
+	local UserInputService = game:GetService("UserInputService")
+	local Dragging = false
+	script.Parent.TextButton.MouseButton1Down:Connect(function()
+		Dragging = true
+	end)
+	
+	UserInputService.InputChanged:Connect(function()
+		if Dragging then
+			local MousePos = UserInputService:GetMouseLocation()+Vector2.new(0,36)
+			local RelPos = MousePos-script.Parent.AbsolutePosition
+			local Precent = math.clamp(RelPos.X/script.Parent.AbsoluteSize.X,0,1)
+			script.Parent.TextButton.Position = UDim2.new(Precent,0,0.5,0)
+			game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Precent*100
+		end
+	end)
+	
+	UserInputService.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			Dragging = false
+		end
+	end)
+end
+coroutine.wrap(IFZE_fake_script)()
+local function JMYSKB_fake_script() -- Content_2.Main Handler 
+	local script = Instance.new('LocalScript', Content_2)
+
+	local TweenService = game:GetService("TweenService")
+	
+	local Holder = script.Parent:WaitForChild("Holder")
+	local Circle = Holder:WaitForChild("Circle")
+	
+	local Button = Holder:WaitForChild("Button")
+	
+	local sound1 = Instance.new("Sound")
+	sound1.Parent = Button
+	sound1.SoundId = ("rbxassetid://4612384434")
+	
+	local sound2 = Instance.new("Sound")
+	sound2.Parent = Button
+	sound2.SoundId = ("rbxassetid://4612384434")
+	
+	local verb = Instance.new("PitchShiftSoundEffect")
+	verb.Parent = sound2
+	verb.Octave = ("0.75")
+	
+	local function setToggle(request)
+		local Duration = 0.25
+		local Style = Enum.EasingStyle.Sine
+		local Direction = Enum.EasingDirection.Out
+		local RepeatCount = 0
+		local Reverse = false
+		local TweenDelay = 0
+		local AnimateInfo = TweenInfo.new(Duration, Style, Direction, RepeatCount, Reverse, TweenDelay)
+		
+		if request == true then
+			local Holder_Open = TweenService:Create(Holder, AnimateInfo, {BackgroundColor3 = Color3.new(0, 0.847059, 0.337255)})
+			local Circle_Open = TweenService:Create(Circle, AnimateInfo, {Position = UDim2.new(1, 0, 0.5, 0), AnchorPoint = Vector2.new(1, 0.5)})
+			
+			Holder_Open:Play()
+			Circle_Open:Play()
+		elseif request == false then
+			local Holder_Close = TweenService:Create(Holder, AnimateInfo, {BackgroundColor3 = Color3.new(0.384314, 0.384314, 0.384314)})
+			local Circle_Close = TweenService:Create(Circle, AnimateInfo, {Position = UDim2.new(0, 0, 0.5, 0), AnchorPoint = Vector2.new(0, 0.5)})
+			
+			Holder_Close:Play()
+			Circle_Close:Play()
+		else
+			warn("Wrong request.")
+		end
+	end
+	
+	
+	local Cooldown = false
+	local isOpen = false
+	Button.MouseButton1Click:Connect(function()
+		if not Cooldown then
+			Cooldown = true
+			
+			if not isOpen then
+				setToggle(true)
+				sound1:Play()
+				
+				isOpen = true
+				
+				noclip = false
+				game:GetService('RunService').Stepped:connect(function()
+					if noclip then
+						game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+					end
+				end)
+				plr = game.Players.LocalPlayer
+				mouse = plr:GetMouse()
+	
+				if isOpen then
+					noclip = not noclip
+					game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+				end
+			else
+				setToggle(false)
+				sound2:Play()
+				
+				isOpen = false
+				
+				noclip = false
+				game:GetService('RunService').Stepped:connect(function()
+					if noclip then
+						game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+					end
+				end)
+				plr = game.Players.LocalPlayer
+				mouse = plr:GetMouse()
+	
+				if isOpen then
+					noclip = not noclip
+					game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+				end
+			end
+			
+			
+			wait(1) -- Wait n Seconds till the animation will proceed
+			Cooldown = false
+		end
+	end)
+end
+coroutine.wrap(JMYSKB_fake_script)()
+local function QIEYJ_fake_script() -- Content_3.Main Handler 
+	local script = Instance.new('LocalScript', Content_3)
+
+	local TweenService = game:GetService("TweenService")
+	
+	local Holder = script.Parent:WaitForChild("Holder")
+	local Circle = Holder:WaitForChild("Circle")
+	
+	local Button = Holder:WaitForChild("Button")
+	
+	local sound1 = Instance.new("Sound")
+	sound1.Parent = Button
+	sound1.SoundId = ("rbxassetid://4612384434")
+	
+	local sound2 = Instance.new("Sound")
+	sound2.Parent = Button
+	sound2.SoundId = ("rbxassetid://4612384434")
+	
+	local verb = Instance.new("PitchShiftSoundEffect")
+	verb.Parent = sound2
+	verb.Octave = ("0.75")
+	
+	local function setToggle(request)
+		local Duration = 0.25
+		local Style = Enum.EasingStyle.Sine
+		local Direction = Enum.EasingDirection.Out
+		local RepeatCount = 0
+		local Reverse = false
+		local TweenDelay = 0
+		local AnimateInfo = TweenInfo.new(Duration, Style, Direction, RepeatCount, Reverse, TweenDelay)
+		
+		if request == true then
+			local Holder_Open = TweenService:Create(Holder, AnimateInfo, {BackgroundColor3 = Color3.new(0, 0.847059, 0.337255)})
+			local Circle_Open = TweenService:Create(Circle, AnimateInfo, {Position = UDim2.new(1, 0, 0.5, 0), AnchorPoint = Vector2.new(1, 0.5)})
+			
+			Holder_Open:Play()
+			Circle_Open:Play()
+		elseif request == false then
+			local Holder_Close = TweenService:Create(Holder, AnimateInfo, {BackgroundColor3 = Color3.new(0.384314, 0.384314, 0.384314)})
+			local Circle_Close = TweenService:Create(Circle, AnimateInfo, {Position = UDim2.new(0, 0, 0.5, 0), AnchorPoint = Vector2.new(0, 0.5)})
+			
+			Holder_Close:Play()
+			Circle_Close:Play()
+		else
+			warn("Wrong request.")
+		end
+	end
+	
+	
+	local Cooldown = false
+	local isOpen = false
+	Button.MouseButton1Click:Connect(function()
+		if not Cooldown then
+			Cooldown = true
+			
+			if not isOpen then
+				setToggle(true)
+				sound1:Play()
+				
+				isOpen = true
+				
+				_G.infinjump = false
+	
+				local Player = game:GetService("Players").LocalPlayer
+				local Mouse = Player:GetMouse()
+				Mouse.KeyDown:connect(function(k)
+					if _G.infinjump then
+						if k:byte() == 32 then
+							Humanoid = game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+							Humanoid:ChangeState("Jumping")
+							wait(0.1)
+							Humanoid:ChangeState("Seated")
+						end
+					end
+				end)
+	
+				local Player = game:GetService("Players").LocalPlayer
+				local Mouse = Player:GetMouse()
+					if isOpen then
+						if _G.infinjump == true then
+							_G.infinjump = false
+						else
+							_G.infinjump = true
+						end
+					end
+			else
+				setToggle(false)
+				sound2:Play()
+				
+				isOpen = false
+				
+				_G.infinjump = false
+	
+				local Player = game:GetService("Players").LocalPlayer
+				local Mouse = Player:GetMouse()
+				Mouse.KeyDown:connect(function(k)
+					if _G.infinjump then
+						if k:byte() == 32 then
+							Humanoid = game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+							Humanoid:ChangeState("Jumping")
+							wait(0.1)
+							Humanoid:ChangeState("Seated")
+						end
+					end
+				end)
+	
+				local Player = game:GetService("Players").LocalPlayer
+				local Mouse = Player:GetMouse()
+				if isOpen then
+					if _G.infinjump == true then
+						_G.infinjump = false
+					else
+						_G.infinjump = true
+					end
+				end
+			end
+			
+			
+			wait(1) -- Wait n Seconds till the animation will proceed
+			Cooldown = false
+		end
+	end)
+end
+coroutine.wrap(QIEYJ_fake_script)()
+local function WMEM_fake_script() -- PlayersFrame.Main 
+	local script = Instance.new('LocalScript', PlayersFrame)
+
+	local plrList = script.Parent["1"].List
+	local sample = script.Parent.Sample
+	
+	function clearList()
+		for _, item in pairs(plrList:GetChildren()) do
+			if item:IsA("TextButton") then
+				item:Destroy()
+			end
+		end
+	end
+	
+	function fillList()
+		clearList()
+		for _, player in pairs(game.Players:GetChildren()) do
+			if not plrList:FindFirstChild(player.Name) then
+				local new = sample:Clone()
+				new.Name = player.Name
+				new.Visible = true
+				new.Text = player.Name
+				new.Parent = plrList
+			end
+		end
+	end
+	
+	fillList()
+	
+	game.Players.PlayerAdded:Connect(fillList)
+	game.Players.PlayerRemoving:Connect(fillList)
+end
+coroutine.wrap(WMEM_fake_script)()
+local function UJVN_fake_script() -- PlayersFrame.ButtonControl 
+	local script = Instance.new('LocalScript', PlayersFrame)
+
+	while wait() do
+		for i, v in pairs(script.Parent["1"].List:GetChildren()) do
+			if v:IsA("TextButton") then
+		
+				v.MouseButton1Click:Connect(function()
+			
+					script.Parent:FindFirstChild("Name").Text = v.Text
+			
+				end)
+		
+			end
+		
+		end
+		
+	end
+end
+coroutine.wrap(UJVN_fake_script)()
+local function HSFRR_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	local Name = script.Parent.Parent:FindFirstChild("Name")
+	
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players[Name.Text].Character.HumanoidRootPart.Position)
+	
+	end)
+end
+coroutine.wrap(HSFRR_fake_script)()
+local function FPUF_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua'))()
+		
+	end)
+end
+coroutine.wrap(FPUF_fake_script)()
+local function LORRJUW_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	local yep = game.CoreGui:WaitForChild("ExtraGraphics")
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		yep:Destroy()
+		
+	end)
+end
+coroutine.wrap(LORRJUW_fake_script)()
+local function IJRVXS_fake_script() -- TopFrame.LocalScript 
+	local script = Instance.new('LocalScript', TopFrame)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(IJRVXS_fake_script)()
+local function ZUXBJWX_fake_script() -- openclose.LocalScript 
+	local script = Instance.new('LocalScript', openclose)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		local sound1 = Instance.new("Sound")
+		sound1.Parent = script.Parent
+		sound1.SoundId = ("rbxassetid://4612384434")
+	
+		local sound2 = Instance.new("Sound")
+		sound2.Parent = script.Parent
+		sound2.SoundId = ("rbxassetid://4612384434")
+	
+		local verb = Instance.new("PitchShiftSoundEffect")
+		verb.Parent = sound2
+		verb.Octave = ("0.75")
+		
+		if script.Parent.Parent.MainFrame.Visible == true and script.Parent.Parent.LabelHolder.Visible == true then
+			
+			wait(0.2)
+			
+			local yes = script.Parent
+			local TweenService = game:GetService("TweenService")
+			local Duration = 0.25
+			local Style = Enum.EasingStyle.Sine
+			local Direction = Enum.EasingDirection.Out
+			local RepeatCount = 0
+			local Reverse = false
+			local TweenDelay = 0
+			local AnimateInfo = TweenInfo.new(Duration, Style, Direction, RepeatCount, Reverse, TweenDelay)
+			
+			script.Parent.Parent.MainFrame.Visible = false
+			script.Parent.Parent.LabelHolder.Visible = false
+	
+			local yes_yes = TweenService:Create(yes, AnimateInfo, {BackgroundColor3 = Color3.new(0, 0.666667, 0)})
+			
+			yes_yes:Play()
+			sound2:Play()
+			
+		elseif script.Parent.Parent.MainFrame.Visible == false and script.Parent.Parent.LabelHolder.Visible == false then
+			
+			wait(0.2)
+			
+			local yes = script.Parent
+			local TweenService = game:GetService("TweenService")
+			local Duration = 0.25
+			local Style = Enum.EasingStyle.Sine
+			local Direction = Enum.EasingDirection.Out
+			local RepeatCount = 0
+			local Reverse = false
+			local TweenDelay = 0
+			local AnimateInfo = TweenInfo.new(Duration, Style, Direction, RepeatCount, Reverse, TweenDelay)
+			
+			script.Parent.Parent.MainFrame.Visible = true
+			script.Parent.Parent.LabelHolder.Visible = true
+	
+			local yes_yes = TweenService:Create(yes, AnimateInfo, {BackgroundColor3 = Color3.new(0.666667, 0, 0)})
+	
+			yes_yes:Play()
+			sound1:Play()
+			
+		end
+		
+	end)
+end
+coroutine.wrap(ZUXBJWX_fake_script)()
+local function IMRETEH_fake_script() -- Local.LocalScript 
+	local script = Instance.new('LocalScript', Local)
+
+	script.Parent.MouseEnter:Connect(function()
+		
+		local yes = script.Parent
+		local TweenService = game:GetService("TweenService")
+		local Duration = 0.25
+		local Style = Enum.EasingStyle.Sine
+		local Direction = Enum.EasingDirection.Out
+		local RepeatCount = 0
+		local Reverse = false
+		local TweenDelay = 0
+		local AnimateInfo = TweenInfo.new(Duration, Style, Direction, RepeatCount, Reverse, TweenDelay)
+		local yes_yes = TweenService:Create(yes, AnimateInfo, {BackgroundColor3 = Color3.fromRGB(69,69,69)})
+	
+		yes_yes:Play()
+		
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+	
+		local yes = script.Parent
+		local TweenService = game:GetService("TweenService")
+		local Duration = 0.25
+		local Style = Enum.EasingStyle.Sine
+		local Direction = Enum.EasingDirection.Out
+		local RepeatCount = 0
+		local Reverse = false
+		local TweenDelay = 0
+		local AnimateInfo = TweenInfo.new(Duration, Style, Direction, RepeatCount, Reverse, TweenDelay)
+		local yes_yes = TweenService:Create(yes, AnimateInfo, {BackgroundColor3 = Color3.fromRGB(60,60,60)})
+	
+		yes_yes:Play()
+	
+	end)
+end
+coroutine.wrap(IMRETEH_fake_script)()
+local function FPQM_fake_script() -- Local.LocalScript 
+	local script = Instance.new('LocalScript', Local)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		local TweenService = game:GetService("TweenService")
+	
+		local Info = TweenInfo.new(0.5)
+	
+		local goal = Vector2.new(0,0)
+	
+		local Tween = TweenService:Create(script.Parent.Parent.Parent.MainFrame.ScrollingFrame, Info, {CanvasPosition = goal})
+	
+		Tween:Play()
+		
+	end)
+end
+coroutine.wrap(FPQM_fake_script)()
+local function MCWUC_fake_script() -- Pla.LocalScript 
+	local script = Instance.new('LocalScript', Pla)
+
+	script.Parent.MouseEnter:Connect(function()
+		
+		local yes = script.Parent
+		local TweenService = game:GetService("TweenService")
+		local Duration = 0.25
+		local Style = Enum.EasingStyle.Sine
+		local Direction = Enum.EasingDirection.Out
+		local RepeatCount = 0
+		local Reverse = false
+		local TweenDelay = 0
+		local AnimateInfo = TweenInfo.new(Duration, Style, Direction, RepeatCount, Reverse, TweenDelay)
+		local yes_yes = TweenService:Create(yes, AnimateInfo, {BackgroundColor3 = Color3.fromRGB(69,69,69)})
+	
+		yes_yes:Play()
+		
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+	
+		local yes = script.Parent
+		local TweenService = game:GetService("TweenService")
+		local Duration = 0.25
+		local Style = Enum.EasingStyle.Sine
+		local Direction = Enum.EasingDirection.Out
+		local RepeatCount = 0
+		local Reverse = false
+		local TweenDelay = 0
+		local AnimateInfo = TweenInfo.new(Duration, Style, Direction, RepeatCount, Reverse, TweenDelay)
+		local yes_yes = TweenService:Create(yes, AnimateInfo, {BackgroundColor3 = Color3.fromRGB(60,60,60)})
+	
+		yes_yes:Play()
+	
+	end)
+end
+coroutine.wrap(MCWUC_fake_script)()
+local function QNIDQNH_fake_script() -- Pla.LocalScript 
+	local script = Instance.new('LocalScript', Pla)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		local TweenService = game:GetService("TweenService")
+		
+		local Info = TweenInfo.new(0.5)
+		
+		local goal = Vector2.new(380,0)
+		
+		local Tween = TweenService:Create(script.Parent.Parent.Parent.MainFrame.ScrollingFrame, Info, {CanvasPosition = goal})
+		
+		Tween:Play()
+		
+	end)
+end
+coroutine.wrap(QNIDQNH_fake_script)()
+local function QMGXCT_fake_script() -- Sett.LocalScript 
+	local script = Instance.new('LocalScript', Sett)
+
+	script.Parent.MouseEnter:Connect(function()
+		
+		local yes = script.Parent
+		local TweenService = game:GetService("TweenService")
+		local Duration = 0.25
+		local Style = Enum.EasingStyle.Sine
+		local Direction = Enum.EasingDirection.Out
+		local RepeatCount = 0
+		local Reverse = false
+		local TweenDelay = 0
+		local AnimateInfo = TweenInfo.new(Duration, Style, Direction, RepeatCount, Reverse, TweenDelay)
+		local yes_yes = TweenService:Create(yes, AnimateInfo, {BackgroundColor3 = Color3.fromRGB(69,69,69)})
+	
+		yes_yes:Play()
+		
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+	
+		local yes = script.Parent
+		local TweenService = game:GetService("TweenService")
+		local Duration = 0.25
+		local Style = Enum.EasingStyle.Sine
+		local Direction = Enum.EasingDirection.Out
+		local RepeatCount = 0
+		local Reverse = false
+		local TweenDelay = 0
+		local AnimateInfo = TweenInfo.new(Duration, Style, Direction, RepeatCount, Reverse, TweenDelay)
+		local yes_yes = TweenService:Create(yes, AnimateInfo, {BackgroundColor3 = Color3.fromRGB(60,60,60)})
+	
+		yes_yes:Play()
+	
+	end)
+end
+coroutine.wrap(QMGXCT_fake_script)()
+local function PSWINU_fake_script() -- Sett.LocalScript 
+	local script = Instance.new('LocalScript', Sett)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		local TweenService = game:GetService("TweenService")
+		
+		local Info = TweenInfo.new(0.5)
+		
+		local goal = Vector2.new(760,0)
+		
+		local Tween = TweenService:Create(script.Parent.Parent.Parent.MainFrame.ScrollingFrame, Info, {CanvasPosition = goal})
+		
+		Tween:Play()
+		
+	end)
+end
+coroutine.wrap(PSWINU_fake_script)()
